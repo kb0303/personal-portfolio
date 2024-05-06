@@ -87,23 +87,7 @@ select:focus {
   }
 }
 
-@media screen and (max-width: 800px) {
-  .banner h1 {
-    font-size: 30px;
-  }
 
-  .banner {
-    padding: 164px 0 100px;
-  }
-
-  .banner p {
-    font-size: 15.5px;
-  }
-
-  .skill p {
-    font-size: 15.5px;
-  }
-}
 
 p.success {
   color: green;
@@ -783,4 +767,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .banner h1 {
+    font-size: 30px;
+  }
+
+  .banner {
+    padding: 164px 0 100px;
+  }
+
+  .banner p {
+    font-size: 15.5px;
+  }
+
+  .skill p {
+    font-size: 15.5px;
+  }
+}
+a {
+  text-decoration: none !important;
 }

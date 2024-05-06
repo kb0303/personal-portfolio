@@ -61,7 +61,7 @@ export const Banner = () => {
                   <p>I'm a self-taught full-stack web developer with a strong passion for learning and problem-solving. I enjoy working
                     with new web technologies and adapting to project changes. My creative thinking helps me deliver
                     innovative solutions that enhance user experiences.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <a href="https://www.linkedin.com/in/krishnam-bisht-269a201a6/" target="__blank"><button>Let’s Connect <ArrowRightCircle size={25} /></button></a>
                 </div>}
             </TrackVisibility>
           </Col>
