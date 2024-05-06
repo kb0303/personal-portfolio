@@ -43,48 +43,54 @@ export const Skills = () => {
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
                   {/* <img src={meter1} alt="Image" /> */}
-                  <CustomCircularProgressBar percentage={75} />
-                  <h5>React JS</h5>
+                  <CustomCircularProgressBar percentage={95} />
+                  <h5>React.js</h5>
                 </div>
                 <div className="item">
                   {/* <img src={meter2} alt="Image" /> */}
-                  <CustomCircularProgressBar percentage={75} />
+                  <CustomCircularProgressBar percentage={85} />
 
-                  <h5>Next JS</h5>
+                  <h5>Express.js</h5>
                 </div>
                 <div className="item">
                   {/* <img src={meter3} alt="Image" /> */}
-                  <CustomCircularProgressBar percentage={50} />
+                  <CustomCircularProgressBar percentage={90} />
 
-                  <h5>Node JS</h5>
+                  <h5>Node.js</h5>
                 </div>
                 <div className="item">
                   {/* <img src={meter1} alt="Image" /> */}
-                  <CustomCircularProgressBar percentage={69} />
+                  <CustomCircularProgressBar percentage={95} />
 
-                  <h5>Wordpress</h5>
+                  <h5>MongoDB</h5>
                 </div>
                 <div className="item">
                   {/* <img src={meter2} alt="Image" /> */}
-                  <CustomCircularProgressBar percentage={75} />
-
-                  <h5>Shopify</h5>
-                </div>
-                <div className="item">
-                  {/* <img src={meter3} alt="Image" /> */}
-                  <CustomCircularProgressBar percentage={96} />
+                  <CustomCircularProgressBar percentage={90} />
 
                   <h5>Web Deployment</h5>
                 </div>
                 <div className="item">
+                  {/* <img src={meter2} alt="Image" /> */}
+                  <CustomCircularProgressBar percentage={85} />
+
+                  <h5>Next.js</h5>
+                </div>
+                <div className="item">
+                  {/* <img src={meter3} alt="Image" /> */}
+                  <CustomCircularProgressBar percentage={95} />
+
+                  <h5>Javascript</h5>
+                </div>
+                <div className="item">
                   {/* <img src={meter1} alt="Image" /> */}
-                  <CustomCircularProgressBar percentage={75} />
+                  <CustomCircularProgressBar percentage={100} />
 
                   <h5>HTML/CSS</h5>
                 </div>
                 <div className="item">
                   {/* <img src={meter3} alt="Image" /> */}
-                  <CustomCircularProgressBar percentage={75} />
+                  <CustomCircularProgressBar percentage={90} />
 
                   <h5>Python</h5>
                 </div>
