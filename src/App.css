@@ -87,6 +87,24 @@ select:focus {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .banner h1 {
+    font-size: 30px;
+  }
+
+  .banner {
+    padding: 164px 0 100px;
+  }
+
+  .banner p {
+    font-size: 15.5px;
+  }
+
+  .skill p {
+    font-size: 15.5px;
+  }
+}
+
 p.success {
   color: green;
 }
