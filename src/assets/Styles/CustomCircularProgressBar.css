@@ -1,0 +1,36 @@
+.custom-progress-bar {
+	/* transform: rotate(-90deg); */
+	overflow: visible;
+}
+
+.item {
+	height: 210px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.item h5 {
+	margin-top: 20px;
+}
+
+.progress-bar-background {
+	fill: none;
+	/* stroke: #ddd; */
+	/* stroke-width: 8; */
+}
+
+.progress-bar {
+	fill: none;
+	stroke: #5d4cb7;
+	stroke-width: 12;
+	transition: stroke-dashoffset 0.5s ease-in-out;
+	stroke-linecap: round;
+}
+
+.progress-text {
+	font-size: 1.2rem;
+	fill: #FFF;
+	font-weight: bold;
+}
